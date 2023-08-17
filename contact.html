@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caudex&display=swap" rel="stylesheet">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav > 
+            <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cursuri.html">Cursuri</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="right"><a href="inscrieri.html">Înscrieri</a></li>
+          </ul>
+    </nav>
+   </header>
+   
+      <div class="container">
+        <div class="contact-box">
+            <div class="left"> 
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10929.556801344033!2d23.6140374!3d46.7769348!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490d896fd493ad%3A0xbd05c92f4645659f!2sATR%20Formare!5e0!3m2!1sro!2sro!4v1687084853873!5m2!1sro!2sro"
+              style="border:0;"
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            </div>
+         <div class="right">
+          <form action="https://formsubmit.co/contact@artformare.ro" method="POST">
+            <h2> Cu ce te putem ajuta? </h2>
+            <input type="text" class="field" name="name" placeholder="Numele tău">
+            <input type="email" class="field" name="email" placeholder="Adresa de email">
+            <input type="text" class="field" name="subject" placeholder="Subiect">
+            <textarea class="field" name="message" placeholder="Mesaj"></textarea>
+            <button class="btn">Trimite</button>
+          </form>
+          </div>
+        </div>
+      </div>
+   
+    <footer>
+      <ul class="social_icon">
+      <li><a href="https://www.facebook.com/atrformare"><ion-icon name="logo-facebook"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      <li><a href="contact.html"><ion-icon name="mail-open-outline"></ion-icon></a></li>
+      </ul> 
+      </footer>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </body>
+</html>

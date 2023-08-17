@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caudex&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Inscrieri</title>
+</head>
+<header>
+    <nav > 
+        <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cursuri.html">Cursuri</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="right"><a href="inscrieri.html">Înscrieri</a></li>
+      </ul>
+</nav>
+</header>
+
+<body>
+  <div class="container">
+    <form action="action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Nume</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="fname" placeholder="Numele tău">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Prenume</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lname" placeholder="Prenumele tău">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="phone">Numar de telefon</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="phone" name="phone" placeholder="+40...">
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Adresa de e-mail</label>
+          </div>
+          <div class="col-75">
+            <input type="email" id="email" name="email" placeholder="xxxxxxxx@xxxxx.xxx">
+          </div>
+        </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="curs">Cursul ales</label>
+        </div>
+        <div class="col-75">
+          <select id="curs" name="curs">
+            <option value="curs1">Manager transport marfă şi persoane</option>
+            <option value="curs2">Consilier de sigurață</option>
+            <option value="curs2">Consilier de sigurață</option>
+            <option value="curs3">Profesor de legislație atestare/ reînnoire</option>
+            <option value="curs4">Instructor de conducere auto atestare/ extindere/ reînnoire</option>
+            <option value="curs5">Conducător auto pregătire inițială CPI</option>
+            <option value="curs6">Conducător auto pregătire inițială CPI scurt</option>
+            <option value="curs7">Conducător auto mărfuri periculoase</option>
+            <option value="curs8">Conducător auto transporturi agabaritice</option>
+            <option value="curs9">Conducător auto pregătire continuă – CPC</option>
+            <option value="curs10">Manager TAXI/ închiriere</option>
+            <option value="curs11">Conducător auto TAXI/ Viză TAXI</option>
+            <option value="curs12">Conducător auto transport în regim de închiriere</option>
+            <option value="curs13">Conducător auto transport cu troleibuzul</option>
+            <option value="curs14">Conducător auto transport vehicule avariate</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="suplimentar">Doresc informații suplimentare despre</label>
+        </div>
+        <div class="col-75">
+          <textarea id="suplimentar" name="suplimentar" placeholder="..." style="height:85px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Trimite">
+      </div>
+    </form>
+  </div>
+
+
+<footer>
+  <ul class="social_icon">
+  <li><a href="https://www.facebook.com/atrformare"><ion-icon name="logo-facebook"></ion-icon></a></li>
+  <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+  <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+  <li><a href="#"><ion-icon name="mail-open-outline"></ion-icon></a></li>
+    </ul> 
+</footer>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   
+</body>
+</html>
