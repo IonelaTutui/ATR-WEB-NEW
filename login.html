@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caudex&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+    <title>Login form</title>
+</head>
+<body>
+    <header>
+        <nav > 
+         <ul class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cursuri.html">Cursuri</a></li>
+          <li><a href="contact.html">Contact</a></li>
+             <li><a href="inscrieri.html">Înscrieri</a></li>
+      <li class="right"><a href="login.html">Contul meu</a></li>
+         </ul>
+        </nav>
+      </header>
+ 
+  <div class="container">
+        <form class="form" id="login">
+            <h1 class="form_title">Login</h1>
+            <div class="form_message form_message--error"></div>
+            <div class="form_field-group">
+                <input type="text" class="form_field" autofocus placeholder="Username or email">
+                <div class="form_field-error-message"></div>
+            </div>
+            <div class="form_field-group">
+                <input type="password" class="form_field" autofocus placeholder="Parola">
+                <div class="form_field-error-message"></div>
+            </div>
+            <button class="form_button" type="submit">Continuare</button>
+            <p class="form_text">
+                <a href="#" class="form_link">Ai uitat parola?</a>
+            </p>
+            <p class="form_text">
+                <a class="form_link" href="./" id="linkCreateAccount">Nu ai un cont? Crează un cont nou </a>
+            </p>
+        </form>
+        <form class="form form--hidden" id="createAccount">
+            <h1 class="form_title">Crează un cont nou</h1>
+            <div class="form_message form_message--error"></div>
+            <div class="form_field-group">
+                <input type="text" id="signupUsername" class="form_field" autofocus placeholder="Username">
+                <div class="form_field-error-message"></div>
+            </div>
+            <div class="form_field-group">
+                <input type="text" class="form_field" autofocus placeholder="Adresa de email">
+                <div class="form_field-error-message"></div>
+            </div>
+            <div class="form_field-group">
+                <select id="curs" name="curs">
+                    <option value="curs0">Cursul la care particip</option>>
+                    <option value="curs1">Manager transport marfă şi persoane</option>
+                    <option value="curs2">Consilier de sigurață</option>
+                    <option value="curs3">Profesor de legislație atestare/ reînnoire</option>
+                    <option value="curs4">Instructor de conducere auto atestare/ extindere/ reînnoire</option>
+                    <option value="curs5">Conducător auto pregătire inițială CPI</option>
+                    <option value="curs6">Conducător auto pregătire inițială CPI scurt</option>
+                    <option value="curs7">Conducător auto mărfuri periculoase</option>
+                    <option value="curs8">Conducător auto transporturi agabaritice</option>
+                    <option value="curs9">Conducător auto pregătire continuă – CPC</option>
+                    <option value="curs10">Manager TAXI/ închiriere</option>
+                    <option value="curs11">Conducător auto TAXI/ Viză TAXI</option>
+                    <option value="curs12">Conducător auto transport în regim de închiriere</option>
+                    <option value="curs13">Conducător auto transport cu troleibuzul</option>
+                    <option value="curs14">Conducător auto transport vehicule avariate</option>
+                  </select>
+                <div class="form_field-error-message"></div>
+            </div>
+            <div class="form_field-group">
+                <input type="password" class="form_field" autofocus placeholder="Parola">
+                <div class="form_field-error-message"></div>
+            </div>
+            <div class="form_field-group">
+                <input type="password" class="form_field" autofocus placeholder="Confirmă parola">
+                <div class="form_field-error-message"></div>
+            </div>
+            <button class="form_button" type="submit">Continuare</button>
+            <p class="form_text">
+                <a class="form_link" href="./" id="linkLogin">Ai deja un cont? Conectează-te!</a>
+            </p>
+        </form>
+    </div>
+     
+      <footer> 
+        <ul class="social_icon">
+          <li><a href="https://www.facebook.com/atrformare"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          <li><a href="contact.html"><ion-icon name="mail-open-outline"></ion-icon></a></li>
+        </ul> 
+      </footer>
+    
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      <script src = "login.js"> </script>
+     </body>
+</body>
+</html>
