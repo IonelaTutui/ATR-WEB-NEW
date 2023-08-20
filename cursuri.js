@@ -62,7 +62,6 @@ const cursuri = [
     }
   
    ]
-
    
 const cardContainer = document.querySelector('.card-container');
 
@@ -71,8 +70,8 @@ const cardContainer = document.querySelector('.card-container');
       return `<div class="boxes">
         <div class= "box-content">
           <h2>${item.numeleCursului}</h2>
-          <button class="detalii" href="inscrieri.html">Solicită detalii despre înscriere</button>
-          <button class="intrebari" href="${item.intrebari}">Modele de întrebări</button>
+          <button class="detalii" onclick="window.location.href='inscrieri.html';">Solicită detalii despre înscriere</button>
+          <button class="intrebari" onclick="window.location.href='${item.intrebari}';">Modele de întrebări</button>
         </div>
      </div>`;
     });
