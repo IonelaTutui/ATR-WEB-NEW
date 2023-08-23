@@ -401,3 +401,16 @@ margin-top: 0.1rem;
 .form_link:hover {
     text-decoration: underline;
 }
+
+/* Thank you*/
+.thankYou {
+  display: block;
+  padding: 5%;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px grey;
+  color: white;
+  }
